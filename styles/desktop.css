@@ -1,0 +1,43 @@
+@media (min-width: 700px) {
+    body {
+        padding: 60px 107.5px;
+    }
+
+    main {
+        max-width: 1021px;
+    
+        display: flex;
+        gap: 116px
+    }
+    
+    .first-section {
+        width: 484px;
+    }
+    
+    h3 {    
+        margin-bottom: 31px;
+    }
+    
+    p {    
+        margin-bottom: 28px;
+    }
+  
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        margin-top: 7.2rem;
+    }
+    
+    .number-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 54px;
+    }
+    
+    .right-section div:nth-child(1) h1 {
+        margin-right: 12px;
+    }
+}
+
